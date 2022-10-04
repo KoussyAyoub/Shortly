@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="shorted.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a id="shortly" class="" href="#"><img src="url-shortening-api-master/url-shortening-api-master/images/logo.svg"></a>
+    <a class ="margin-top" href="#">Features</a>
+    <a class ="margin-top" href="#">Pricing</a>
+    <a class ="margin-top" href="#">Resources</a>
+    <hr id ="hr" class="hr-class">
+    <span class="t-a"> 
+      <a  id="login" class="visibl margin-top" href="#about">Login</a>
+      <a  class="margin-top Sign" href="#about">Sign Up</a>
+    </span>
+    <a  href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+  <img class="anythings" src="url-shortening-api-master/url-shortening-api-master/images/illustration-working.svg">
+  <div class = 'section-media'>
+      <h1 class="margin-h1">More than just shorter links</h1>
+      <p class="p-style">Build your brand's recognition and get detailed insights on how your links are performing.</p> 
+      <div style="margin-top: 34px;"><a class="Get" href="#GetStarted">Get Started</a></div>
+  </div>
+
+<section  class="section-margin-1"  >
+    <div>
+        <div class="div-margin illustration-background"> 
+            <div class="input-group mb-3">
+                <input  id="linkinput" type="search" class="form-control border-search input-class" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <button onclick="shorten()" id="myinput" type="submit" class="button-style shorted" style="margin-left: 25px;"><h6>Shorten It!</h6></button>
+            </div>
+            <p class="error">Please add a link</p>
+            
+        </div>
+        <p id="message"> </p>
+        <ul class="shorted-links"></ul>
+
+    </div>
+    
+</section>
+
+<section class="section-margin-2" >
+    <div class="center-h1">
+        <h1 class="for_h1">Advanced Statistics</h1>
+        <h5 class="style-h5">Track how your links are performing across the web <div class="style-h5-div">with our advanced Statistics dashboard</div></h5>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      
+
+        <div class="col" style="margin-top: 18px;">
+            <div class="div-section">
+                <div class="border-div-img ">
+                    <img src="url-shortening-api-master/url-shortening-api-master/images/icon-brand-recognition.svg" class="border-img">
+            
+                </div>
+                <h3 style="margin-top: 16px;">Brand recognition</h3>
+                <p class="card-text"> <div style="color : #a58a8aba;"> Boost your brand recognition with</div><div style="color : #a58a8aba;">each click. Generic links don't mean a</div> <div style="color : #a58a8aba;">thing. Branded links help instil</div> <div style="color : #a58a8aba;">confidence in your content</div> </p>
+            </div>
+        </div>
+    
+        
+        
+        <div class="col" style="margin-top: 62px;">
+            <div class="div-section">
+                <div class="border-div-img" id="border-img-2">
+                    <img src="url-shortening-api-master/url-shortening-api-master/images/icon-detailed-records.svg" class="border-img">
+            
+                </div>
+                <h3 style="margin-top: 16px;">Detailed Records</h3>
+                <p class="card-text"> <div style="color : #a58a8aba;"> Gain insights into who is clicking your</div><div style="color : #a58a8aba;">links. Knowing When and Where</div> <div style="color : #a58a8aba;">people engage with your content</div> <div style="color : #a58a8aba;">helps inform better decisions</div> </p>
+            </div>
+        </div>
+
+        
+    
+        <div class="col" style="margin-top: 107px;">
+            <div class="div-section">
+                <div class="border-div-img1 ">
+                    <img src="url-shortening-api-master/url-shortening-api-master/images/icon-fully-customizable.svg" class="border-img">
+            
+                </div>
+                <h3 style="margin-top: 16px;">Fully Customizable</h3>
+                <p class="card-text"> <div style="color : #a58a8aba;">Improve brand awareness and</div><div style="color : #a58a8aba;">content discoverability through</div> <div style="color : #a58a8aba;">Customizable links, supercharging</div> <div style="color : #a58a8aba;">audience engagement</div> </p>
+            </div>
+        </div>
+    </div>    
+
+    
+    
+    
+    
+</section>
+
+<section class="style-section">
+    <h1 class="h1-section">Boost your links today</h1>
+    <div style="margin-top: 34px;" ><a   id="jfd" style="margin-inline: auto; background-color: #dec9c9 !important;" class="Get" href="#GetStarted">Get Started</a></div>
+</section>
+
+<footer class="footer">
+    <div class="container " style="    margin-left: -147px; margin-top: -145px;">
+        <a href="#"><img <img class='footer-end' style="filter: brightness(10);" src="url-shortening-api-master/url-shortening-api-master/images/logo.svg"></a>
+    <div class="footer-div1">
+        <div ><h6 style="color :white">Features</h6></div>
+        <div style="margin-top: 26px;"><a  class="class-a" href="#">Link Shortening</a></div>
+        <div  style="margin-top: 12px;"><a class="class-a" href="#">Branded Links</a></div>
+        <div style="margin-top: 12px;"><a class="class-a" href="#">Analytics</a></div>
+
+
+    </div>
+
+    <div class="footer-div2">
+        <div ><h6 style="color :white">Resources</h6></div>
+        <div style="margin-top: 26px;" ><a class="class-a" href="#">Blog</a></div>
+        <div style="margin-top: 12px;"><a class="class-a" href="#">Developers</a></div>
+        <div style="margin-top: 12px;"><a class="class-a" href="#">Support</a></div>
+
+
+    </div>
+    
+    <div class="footer-div3">
+        <div><h6 style="color :white">Company</h6></div>
+        <div style="margin-top: 26px;"><a class="class-a" href="#">About</a></div>
+        <div style="margin-top: 12px;"><a class="class-a" href="#">Our Team</a></div>
+        <div style="margin-top: 12px;"><a class="class-a" href="#">Careers</a></div>
+        <div style="margin-top: 12px;"><a class="class-a" href="#">Contact</a></div>
+    </div>
+
+    
+
+    <div class="social margin-social">
+        <a href="#">
+          <img src="url-shortening-api-master/url-shortening-api-master/images/icon-facebook.svg"  alt="Shortly - Facebook" />
+        </a>
+        <a href="#">
+          <img style="margin-left: 24px;" src="url-shortening-api-master/url-shortening-api-master/images/icon-twitter.svg" alt="Shortly - Twitter" />
+        </a>
+        <a href="#">
+          <img style="margin-left: 24px;" src="url-shortening-api-master/url-shortening-api-master/images/icon-pinterest.svg" alt="Shortly - Pinterest" />
+        </a>
+        <a href="#">
+          <img style="margin-left: 24px;" src="url-shortening-api-master/url-shortening-api-master/images/icon-instagram.svg" alt="Shortly - Instagram" />
+        </a>
+      </div>
+    
+
+
+
+
+</div>
+    
+    
+
+    
+    
+</footer>
+
+<script src="shorted.js" ></script>
+
+
+
+</body>
+</html>
